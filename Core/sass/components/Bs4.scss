@@ -1,0 +1,32 @@
+.form{
+    &-control {
+        &:focus {
+            box-shadow: none;
+            outline: 0;
+            border: 1px solid orange;
+        }
+    }
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn {
+    &-primary {
+        background-color: $orange;
+        color: white;
+        border: 1px solid;
+        &:hover,
+        &:focus{
+            background-color: orange;
+            border: 1px solid;
+        }
+    }
+}

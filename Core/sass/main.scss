@@ -9,9 +9,15 @@
 /* Layout */
 @import
   'Layout/Container',
+  'Layout/banner',
+  'Layout/classification',
   'Layout/Footer',
   'Layout/Header';
-
-/* Componenet */
-@import
-  'Components/Buttons';   
+  
+  /* Componenet */
+  @import
+  'Components/Bs4',
+'Components/countdown',
+'Components/Image',
+'Components/General',
+  'Components/Buttons';

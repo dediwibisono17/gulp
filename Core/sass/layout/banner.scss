@@ -1,0 +1,21 @@
+.banner-ku{
+    margin-top: 150px;
+    &__big {
+        height:260px;
+        // border:1px solid;
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__normal {
+        height:125px;
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.mb-10 {
+    margin-bottom: 10px;
+} 

@@ -1,0 +1,79 @@
+@@include('../shared/onlylogo.html', {
+    "style": [
+      "assets/css/vendor/bootstrap.css",
+      "assets/css/vendor/slick.css",
+      "assets/css/vendor/slick-theme.css",
+      "assets/css/vendor/font-awesome.min.css",
+      "assets/css/main.css",
+      "assets/css/pages/home.css"
+    ]
+  })
+
+  <main style="margin-top: 160px;">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 col-md-6">
+                  <h1>Silahkan Login/Daftar Untuk memasuki halaman</h1>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                  <h2>Login</h2>
+                <form>
+                    <div class="form-group">
+                      <input type="email" class="form-control-sm form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control-sm form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="clearfix">
+                        <div class="form-check float-left">
+                          <a href="#"><small>Forgot Password?</small></a>
+                        </div>
+                        <button type="submit" class="float-right btn btn-primary">Login</button>
+                    </div>
+                  </form>
+                  <hr>
+                  <h2>Register</h2>
+                  <form action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control-sm form-control" id="exampleInputName" placeholder="Name">
+                      </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control-sm form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control-sm form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="form-group">
+                        <input type="date" id="birthday" class="form-control" name="birthday">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Gender</label>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">Male</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Female</label>
+                            </div>
+                        </div>
+                        <div>
+                            <small>Saya telah membaca <a href="#">Kebijakan Privasi</a> dan <a href="#">Syarat ketentuan</a></small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </main>
+
+  @@include('../shared/footer.html', {
+    "script": [
+    "assets/js/vendor/jquery.min.js",
+    "assets/js/vendor/bootstrap.bundle.min.js",
+    "assets/js/app.min.js",
+    "assets/js/vendor/slick.min.js",
+    "assets/js/helper/helper.js",
+    "assets/js/includes/homepage.js"
+    ]
+  })

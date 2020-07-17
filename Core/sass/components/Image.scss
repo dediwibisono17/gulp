@@ -1,0 +1,43 @@
+.image {
+    &--dummy {
+        background: linear-gradient(to bottom, grey, silver);
+        height: 150px;
+        position: relative;
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+        &__center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: white;
+            font-weight: bold;
+            transform: translate(-50%,-50%);
+        }
+    }
+    &__mall{
+        &--big{
+            background: linear-gradient(to bottom, $orange, orange);
+            height: 350px;
+        }
+        &--small {
+            background: linear-gradient(to bottom, $grey, silver);
+            height: 175px;
+        }
+    }
+    &__terlaris {
+        &--blue {
+            height: 200px;
+            background: linear-gradient(to bottom, skyblue, powderblue);
+        }
+        &--blueopt {
+            height: 100px;
+            background-color: powderblue;
+        }
+        &--green{
+            height: 100px;
+            background: skyblue;
+        }
+    }
+}
